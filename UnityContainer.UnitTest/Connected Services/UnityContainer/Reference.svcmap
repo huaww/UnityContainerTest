@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6171cfb3-a83d-41ea-b842-869535cec48a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8888/HubService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HubService.disco" MetadataType="Disco" ID="4804d52f-8c84-4cab-b443-e887fc905935" SourceId="1" SourceUrl="http://localhost:8888/HubService.svc?disco" />
+    <MetadataFile FileName="HubService.xsd" MetadataType="Schema" ID="a60637e4-de3e-4192-82c8-4dd7f6d86e2b" SourceId="1" SourceUrl="http://localhost:8888/HubService.svc?xsd=xsd1" />
+    <MetadataFile FileName="HubService1.xsd" MetadataType="Schema" ID="d62b139c-2f6e-4200-b464-c3918a2940f0" SourceId="1" SourceUrl="http://localhost:8888/HubService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HubService.wsdl" MetadataType="Wsdl" ID="50c3442d-4e70-4ce8-913e-1e2669299888" SourceId="1" SourceUrl="http://localhost:8888/HubService.svc?wsdl" />
+    <MetadataFile FileName="HubService2.xsd" MetadataType="Schema" ID="dbb43a42-9bf8-4a8b-890b-67cdb384a0a8" SourceId="1" SourceUrl="http://localhost:8888/HubService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

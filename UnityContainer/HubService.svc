@@ -1,0 +1,3 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" 
+    Service="UnityContainer.HubService" CodeBehind="HubService.svc.cs" 
+    Factory="UnityContainer.WcfServiceFactory" %>
